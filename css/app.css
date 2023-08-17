@@ -1,0 +1,460 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler{
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+.header{
+    background: black;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    transition: all 0.3s;
+    margin-left: 0.5rem;
+    font-weight: 300;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #afafaf;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+    width: 4.6rem;
+}
+.box_1{
+    background: #000b76;
+}
+.setting img{
+    width: 23rem;
+}
+.box_1 h1{
+    color: white;
+}
+.box_1 p{
+    color: white;
+    width: 80%;
+}
+.box_1 h1::first-letter{
+    initial-letter: 2;
+    margin-right: 0.4rem;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.code{
+    background-color: unset;
+}
+.btns{
+    margin-top: 1.5rem;
+}
+.btns a{
+    text-decoration: none;
+    background-color: #000000;
+    padding: 13px 12px 13px 12px;
+    color: white;
+}
+.btns a:hover{
+    color: #afafaf;
+}
+.services h1{
+    font-weight:bolder;
+    text-shadow: 0.5rem 0.5rem 4px #efece9;
+}
+.artifical img{
+    width: 12rem;
+}
+.artifical h3{
+    margin-top: 1rem;
+}
+.artifical p{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+.inside{
+    box-shadow: inset 0rem 0rem 20px 1px #e5e5e5;
+    padding: 20px 10px 25px 10px;
+    background-color: #efece9;
+}
+.inside a{
+    background-color: #cdcdcd;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.inside a:hover{
+    color: #afafaf;
+}
+.img__box{
+    position: relative;
+    background-image: url(../images/myai.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    border-radius: 1rem;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #575adf52;
+    transition: all 0.3s;
+    border-radius: 1rem;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    width: 100%;
+}
+.overlay:hover{
+    opacity: 0.8;
+}
+.power h1{
+    font-weight: bold;
+    text-shadow: 0.5rem 0.5rem 4px #efece9;
+}
+.my__tiem h2{
+    text-shadow: 0.5rem 0.5rem 4px #efece9;
+    font-weight: bolder;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.para{
+    padding: 0.6rem;
+    border-bottom: 0.2rem solid #d6d5d5;
+    border-left: 0.2rem solid #d6d5d5;
+    border-right: 0.2rem solid #d6d5d5;
+}
+.img__setting{
+    position: relative;
+    background-image: url(../images/website.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    border-radius: 1rem;
+}
+.overlay__two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #575adf52;
+    transition: all 0.3s;
+    border-radius: 1rem;
+}
+.content__two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+}
+.overlay__two:hover{
+    opacity: 0.8;
+}
+.last__img{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/design.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+}
+.over__lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #575adf52;
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+.overlay__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.over__lay:hover{
+    opacity: 0.8;
+}
+.content__more{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    text-decoration: none;
+    background-color: #000b76;
+    color: white;
+    padding: 5px 10px;
+}
+.abuut__shadow{
+    text-shadow: 0.5rem 0.5rem 4px #efece9;
+}
+.about__more{
+    position: relative;
+    background-color: #000b76;
+    width: 100%;
+}
+.about__more h1{
+    color: white;
+}
+.about__more p{
+    color: white;
+}
+.about__more img{
+    width: 10rem;
+}
+.batman{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.batman img{
+    position: absolute;
+    left: 0;
+    animation-name: jsutrun;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes jsutrun {
+    from{
+        left: 0;
+    }
+    to{
+        left: 80%;
+    }
+}
+
+@media (max-width:600px) {
+    @keyframes jsutrun {
+        from{
+            left: 0;
+        }
+        to{
+            left: 60%;
+        }
+    }
+}
+.see__more{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 18px;
+    border-radius: 0.4rem;
+}
+.see__more:hover{
+    color: #e2e2e2;
+}
+
+/* blog */
+
+.blog__img{
+    width: 100%;
+    height: 16rem;
+}
+.blog__img img{
+    width: 100%;
+    height: 100%;
+}
+.blog__tool{
+    background-color: #e7e7e76b;
+}
+.footer{
+    padding: 1rem;
+    color: white;
+    background-color: #000b76;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer a:hover{
+    color: white;
+}
+.footer p {
+    margin-top: 1.6rem;
+    color: #ffffffc4;
+}
+.footer__page ul li a{
+    color: #ffffffc4;
+    font-weight: 400;
+}
+.footer__page ul li a:hover{
+    color: #afafaf;
+}
+.footer__page{
+    line-height: 1;
+    flex-direction: column;
+    display: flex;
+}
+.footer__page ul li{
+    list-style: none;
+}
+.footer__page ul{
+    padding-left:0 ;
+}
+.footer__page h3{
+    color: #ffffff;
+}
+.main{
+    background-color: #000b76;
+}
+.last__footer{
+    padding: 1rem;
+    color: white;
+    background-color: #000b76;
+    display: flex;
+    justify-content:center;
+    border-top: 0.2rem solid #010a58;
+}
+.last__inside{
+    margin-left: 1rem;
+}
+::selection{
+    text-decoration: underline;
+    background-color: #7f89e7;
+}
+::-webkit-scrollbar{
+    transition: all 0.3s;
+    width: 0.7rem;
+}
+::-webkit-scrollbar-thumb{
+    transition: all 0.3s;
+    background-color: #010a58;
+}
+::-webkit-scrollbar-track{
+    transition: all 0.3s;
+    background-color: #262f81;
+}
+ #my__btn{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    color: white;
+    background-color: #262f81;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    display: none;
+    
+    
+} 
+#social{
+    display: flex;
+    position: fixed;
+    bottom: 250px;
+    right: 15px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+#social a{
+    color: white;
+    font-size: 1rem;
+}
+#social a i{
+    padding: 0.8rem;
+}
+.fa-facebook-f{
+    background-color: rgb(33, 80, 209);
+    border: 0.2rem solid rgb(33, 80, 209);
+    transition: all 0.3s ease-in-out;
+}
+.fa-facebook-f:hover{
+    background-color: unset;
+    border: 0.2rem solid rgb(33, 80, 209);
+    color: rgb(33, 80, 209);
+}
+.fa-instagram{
+    background-color: #da450a;
+    border: 0.2rem solid #da450a;
+    transition: all 0.3s ease-in-out;
+}
+.fa-instagram:hover{
+    background: unset;
+    border: 0.2rem solid #da450a ;
+    color: #da450a;
+}
+.fa-twitter{
+    background-color: #23b6f0;
+    border: 0.2rem solid #23b6f0;
+    transition: all 0.3s ease-in-out;
+}
+.fa-twitter:hover{
+    background-color: unset;
+    border: 0.2rem solid #23b6f0;
+    color: #23b6f0;
+}
+.right__contact input{
+    height: 3rem;
+}
+.right__contact input:focus{
+    box-shadow: unset;
+}
+.right__contact textarea:focus{
+    box-shadow: unset;
+}
+#messsage{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    background-color: #202a68;
+    font-size: 1.3rem;
+    color: white;
+    transition: all 0.3s;
+}
+#messsage:hover{
+    background-color: black;
+}
+.left__contact{
+    position: relative;
+}
+.last__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #1e1c18;
+    transition: all 0.3s linear;
+}
+.last__overlay:hover{
+    opacity: 0.8;
+}
